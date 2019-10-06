@@ -21,6 +21,14 @@
     <name>dfs.replication</name>
     <value>1</value>
   </property>
+
+  <!-- For slave nodes
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///usr/local/hadoop/data/hdfs/datanode</value>
+  </property
+  > -->
+
   <property>
     <name>dfs.namenode.name.dir</name>
     <value>file:///usr/local/hadoop/data/hdfs/namenode</value>
