@@ -8,7 +8,7 @@ then
 echo "Syncinc the configuration files between master and datanode"
 scp $HADOOP_CONF_DIR/core-site.xml datanode1:$HADOOP_CONF_DIR
 scp $HADOOP_CONF_DIR/mapred-site.xml datanode1:$HADOOP_CONF_DIR
-scp $HADOOP_CONF_DIR/yarn-site.xml datanode1:/usr/local/hadoop/etc/hadoop
+scp $HADOOP_CONF_DIR/yarn-site.xml datanode1:$HADOOP_CONF_DIR
 
 elif [ "$1" == "start" ]
 then
